@@ -1,8 +1,10 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -38,4 +40,97 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.nav{
+  width: 90vw;
+  max-width: 1000px;
+  max-height: 80px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 10px;
+  z-index: 10;
+  background-color: #242424;
+}
+
+.principal {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.select {
+  width: 45%;
+  height: 80%;
+  margin-left: 17px;
+  padding: 0.5rem;
+  border: 1px solid #e1e1e1;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  outline: none;
+  order: 1;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 70px;
+  justify-content: space-between;
+  align-items: left;
+  margin-bottom: 100px;
+}
+
+.sub1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.buttons{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+.mright {
+  margin-right: 50px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.principalButton {
+  width: 400px;
+}
+
+.TextoEjemplo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
 }
